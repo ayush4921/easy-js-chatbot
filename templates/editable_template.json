@@ -1,0 +1,27 @@
+{
+    "details_of_bot": {"name_of_the_bot":"Basic Bot",
+        "image_url_of_avatar":"https://www.seekpng.com/png/detail/110-1100707_person-avatar-placeholder.png",
+        "image_url_of_chatbot":"https://cdn.iconscout.com/icon/free/png-256/bot-136-504893.png"},
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hi there", "hello","haroo","yaw","wassup", "hi", "hey", "holla", "hello"],
+            "responses": ["Hello thanks for checking in", "hi there, how can i help you"]
+        },{
+            "tag": "volunteer",
+            "patterns": ["How do I become a volunteer?","how to volunteer","volunteer","how I volunteer","become a volunteer","volunteering how to"],
+            "responses": ["Visit **** to find out "]
+        },{
+            "tag": "refer",
+            "patterns": ["How do I refer a senior?","senior refer","refer","referral","refer a senior","how to refer"],
+            "responses": ["Refering a senior is cuurently not supported"]
+        },{
+            "tag": "Senior Activity Centre",
+            "patterns": ["How can I join your Senior Activity Centre?","senior Activity center","join senior activity center","senior activity","senior activity center joining"],
+            "responses": ["Visit **** to find the nearest centre to your place and dial in to the specific centre to enquire."]
+        },{
+            "tag": "Miscellineous",
+            "patterns": ["How can I meet the team","meet the team","How I meet team"],
+            "responses": ["Meeting the team is currently not supported"]
+        }
+    ]
+}
