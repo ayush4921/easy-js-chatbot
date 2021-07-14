@@ -1,9 +1,9 @@
 {
     "details_of_bot": {"name_of_the_bot":"Basic Bot",
         "image_url_of_avatar":"https://www.seekpng.com/png/detail/110-1100707_person-avatar-placeholder.png",
-        "image_url_of_chatbot":"https://cdn.iconscout.com/icon/free/png-256/bot-136-504893.png"},
+        "image_url_of_chatbot":"https://cdn.iconscout.com/icon/free/png-256/bot-136-504893.png",
         "position":"left",
-        "open_on_load":true,
+        "open_on_load":true},
     "intents": [{
             "tag": "greetings",
             "patterns": ["hi there", "hello","haroo","yaw","wassup", "hi", "hey", "holla", "hello"],

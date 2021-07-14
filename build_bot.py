@@ -12,7 +12,6 @@ javascript_template = os.path.join(
 css_template_url = os.path.join(
     os.getcwd(), "templates", "chat_bot_css.css")
 bot_template = json.loads(open(intents_json_url).read())
-
 name_of_the_bot = bot_template["details_of_bot"]["name_of_the_bot"]
 image_url_of_avatar = bot_template["details_of_bot"]["image_url_of_avatar"]
 image_url_of_chatbot = bot_template["details_of_bot"]["image_url_of_chatbot"]
