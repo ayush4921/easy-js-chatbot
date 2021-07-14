@@ -20,7 +20,7 @@ if (!myStorage.getItem("chatID")) {
 setTimeout(function () {
   element.addClass("enter");
 }, 1000);
-
+{{load_on_open}}
 element.click(openElement);
 
 function openElement() {
