@@ -36,12 +36,14 @@ with open(html_head_url, 'r') as f:
 with open(css_template_url, 'r') as f:
     css_template = Template(f.read())
 
-html_body_string = html_body_string.render(name_of_the_bot=name_of_the_bot)
 
 css_template = css_template.render(
     image_url_of_chatbot=image_url_of_chatbot, image_url_of_avatar=image_url_of_avatar, position_of_chatbot=position_of_chatbot)
 
-html_body_head = html_body_head.render(css_template=css_template)
+html_body_string = html_body_string.render(css_template=css_template,
+                                           name_of_the_bot=name_of_the_bot)
+
+html_body_head = html_body_head.render()
 
 with open(javascript_template, 'r') as f:
     js_text = Template(f.read())
