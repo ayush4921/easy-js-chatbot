@@ -38,3 +38,9 @@ The javascript templated will be populated with the html which will be placed in
 A style tag will be inserted in your website's head for the css of the chatbot.
 
 You can edit the css in `templates\chat_bot_css.css` to change the look of the chatbot.
+\
+&nbsp;
+## How it looks:
+![easy_chat_bot](https://user-images.githubusercontent.com/62711517/125550594-ee544479-2da0-478d-9ca9-b39a44a37e79.png)
+![11](https://user-images.githubusercontent.com/62711517/125550605-074191d1-1155-4d88-b0c7-c699861a817f.png)
+![abc](https://user-images.githubusercontent.com/62711517/125550612-50a46e3f-4231-4b7e-8bf5-84d8a7f43eab.png)
